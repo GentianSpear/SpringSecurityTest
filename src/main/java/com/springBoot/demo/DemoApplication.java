@@ -15,8 +15,17 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("/hello")
+	@RequestMapping("/springBoot")
 	public String hello(){
 		return "hello springboot!!!";
+	}
+	@RequestMapping("/hello")
+	public String yanzheng(){
+		return "hello";
+	}
+
+	@RequestMapping("/helloWorld ")
+	public String yan(){
+		return "hello  world";
 	}
 }
